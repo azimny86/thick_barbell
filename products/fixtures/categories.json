@@ -1,0 +1,34 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "strength_equipment",
+        "friendly_name": "Strength Equipment"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "cardio_fitness",
+        "friendly_name": "Cardio Fitness"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "sports_watches",
+        "friendly_name": "Sports Watches"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "deals",
+        "friendly_name": "Deals"
+      }
+    }
+  ]
