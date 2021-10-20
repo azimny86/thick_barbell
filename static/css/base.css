@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html {
     height: 100%;
 }
@@ -6,11 +8,33 @@ body {
     background: url('/media/background.jpg') no-repeat center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
+}
+
+.navbar {
+    background-color: #191A19;
+}
+.navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    font-size: xx-large;
     color: #FEE440;
 }
 
+.nav-link {
+    color: #FEE440;
+}
 .navbar-product {
   display:  contents;
+}
+
+/* Products */
+.overlay {
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    position: fixed;
+    background:url('/media/background-products.jpg') no-repeat ;
+    z-index: 1;
 }
 
 /* from Bulma */
@@ -31,13 +55,13 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #FEE440;
     color: white;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background: #FEE440;
     color: white;
 }
 
@@ -52,7 +76,7 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: #FEE440 !important;
 }
 
 .border-black {
