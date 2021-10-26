@@ -6,7 +6,7 @@
         "sku": "pp5001340155",
         "name": "NordicTrack X22i Incline Trainer Treadmill",
         "description": "Work out all over the world with an interactive personal trainer and discover an innovative fitness experience with a vibrant 22” Smart HD touchscreen and dynamic 40 percent incline. ",
-        "price": 3.999,
+        "price": 3999,
         "category": 2,
         "rating": 4.6,
         "image_url": "media/Norditrack-x22i-0.jpg",
@@ -20,10 +20,10 @@
         "sku": "pp5001340156",
         "name": "Reebok Jet 300 Series",
         "description": "Featuring a powerful 2.5 HP motor, the Jet 300 is built for total home performance. Reaching 20 kph across 15 incline levels, the 300 offers all the tools to push your limits on every run. Fitted with a 7 window LED display and hand pulse sensors, the Bluetooth enabled console shows detailed performance feedback with built-in speakers to power your run. Run on air - designed with signature Air Motion technology, the Jet 300 reacts to each foot strike; transferring air between the cushioning pods to offer support where it’s needed. Compatible with the Reebok Fitness App, you’re able to tailor and track your workouts via your phone whilst running any route virtually through Google Street View.",
-        "price": 1.099,
+        "price": 1099,
         "category": 2,
         "rating": 5,
-        "image_url": "/workspace/Thick-Barbell/media/jet-300-lateral.gif",
+        "image_url": "workspace/Thick-Barbell/media/jet-300-lateral.gif",
         "image": "jet-300.jpg"
       }
     },
@@ -37,7 +37,7 @@
         "price": 449,
         "category": 2,
         "rating": 5,
-        "image_url": "/workspace/Thick-Barbell/media/Reebok-OneGX40SCrossTrainer-1.jpg",
+        "image_url": "workspace/Thick-Barbell/media/Reebok-OneGX40SCrossTrainer-1.jpg",
         "image": "Reebok-OneGX40SCrossTrainer.jpg"
       }
     },
@@ -51,7 +51,7 @@
         "price": 499,
         "category": 1,
         "rating": 5,
-        "image_url": "/workspace/Thick-Barbell/media/Marcy-BS100-1.jpg",
+        "image_url": "workspace/Thick-Barbell/media/Marcy-BS100-1.jpg",
         "image": "Marcy-BS100-1.jpg"
       }
     },
@@ -62,10 +62,10 @@
         "sku": "pp5001340159",
         "name": "Garmin VENU",
         "description": "A hard-wearing set of weights is the backbone to any gym. The easy tri-grip plates boast a healthy blend of light and heavy weights. Slap the heavy plates on for your big lifts like squats and bench press, the light plates are ideal for slowly increasing your strength from there. Brass-bushings in the barbell smoothly rotate the ends for a balanced feel during lifts. Multiple knurling points along the bar support your grip, the high-performance nature of the barbell gives it such generous weight capacities. This is a weight set designed to grow with you. ",
-        "price": 321.99,
+        "price": 32199,
         "category": 3,
         "rating": 5,
-        "image_url": "/workspace/Thick-Barbell/media/Garmin-Venu-Black-2.jpg",
+        "image_url": "workspace/Thick-Barbell/media/Garmin-Venu-Black-2.jpg",
         "image": "Garmin-Venu-Black-.jpg"
       }
     }

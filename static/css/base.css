@@ -4,14 +4,16 @@ html {
     height: 100%;
 }
 
-body {
-    background: url('/media/background.jpg') no-repeat center fixed;
+.container-index {
+    background: url('/media/background.jpg') no-repeat center center fixed; 
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: 100%;
+    position: fixed;
 }
 
 .navbar {
     background-color: #191A19;
+    width: 100%;
 }
 .navbar-brand {
     font-family: 'Bebas Neue', cursive;
@@ -25,7 +27,15 @@ body {
 .navbar-product {
   display:  contents;
 }
+.card-img-top{
+    border: 1px solid #222;
+    
+}
 
+.logo-font {
+    color: #FEE440;
+    text-shadow: 2px 2px #222;
+}
 /* Products */
 .overlay {
     height: 100%;
@@ -33,10 +43,20 @@ body {
     top:0;
     left: 0;
     position: fixed;
-    background:url('/media/background-products.jpg') no-repeat ;
     z-index: 1;
 }
 
+/* Product_details */
+.add-to-bag{
+    background-color: #FEE440;
+}
+
+.text-delivery {
+    color: #3366FF;
+}
+#units {
+    width: 8%;
+}
 /* from Bulma */
 .icon {
     align-items: center;
@@ -83,6 +103,8 @@ body {
     border: 1px solid black !important;
 }
 
+
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -104,5 +126,13 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+@media (max-width:991px) {
+    .header-container{
+        padding-top: 110px;
+    }
+    body {
+        height: calc(100vh-116px);
     }
 }

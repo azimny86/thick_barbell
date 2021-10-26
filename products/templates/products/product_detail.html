@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+    {% block content %}
+    <!--
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="logo-font">{{ product.name }}</h2>
+                <hr class="mb-1">
+            </div>
+        </div>
+        <div class="col-6 offset-lg">
+            <div class="image-container my-5">
+                {% if product.image %}
+                <a href="{{ product.image.url }}" target="_blank">
+                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                </a>
+                {% else %}
+                <a href="">
+                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                </a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="product-details ">
+                <p class="mb-0 px-1">{{ product.name }}</p>
+                <p class="lead mb-0 text-left">{{ product.price }}</p>
+                {% if product.rating %}
+                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                {% else %}
+                    <small class="text-muted">Na rating</small>
+                {% endif %}
+                <p class=" mt-mb-auto py-5">{{ product.description }}</p>
+            </div>
+        </div>
+    </div>
+    -->
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            {% if product.image %}
+            <a href="{{ product.image.url }}" target="_blank">
+                <img class="card-img-top" src="{{ product.image.url }}" alt="{{ product.name }}">
+            </a>
+            {% else %}
+            <a href="">
+                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+            </a>
+            {% endif %}
+          </div>
+          <div class="col">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col text-center mt-3">
+                        <h2 class="logo-font">{{ product.name }}</h2>
+                        <hr class="mb-1">
+                    </div>
+                </div>
+                <div class="product-details ">
+                    {% if product.rating %}
+                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                    {% else %}
+                        <small class="text-muted">Na rating</small>
+                    {% endif %}
+                    <p class=" mt-mb-auto py-5">{{ product.description }}</p>
+                </div>
+            <div class="container">
+                <p class="lead mb-2 text-left title is-4">€{{ product.price }}</p>
+                <input type="number" name="units" id="units" placeholder="1" min="1" max="10">
+                <button class="button  add-to-bag">Add to bag</button>
+                
+            </div>
+                <i class="fas fa-truck text-delivery"> FREE DELIVERY from €200</i>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+{% endblock %}
