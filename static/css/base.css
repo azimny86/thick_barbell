@@ -11,6 +11,7 @@ html {
     position: fixed;
 }
 
+/* Navbar */
 .navbar {
     background-color: #191A19;
     width: 100%;
@@ -35,6 +36,11 @@ html {
 .logo-font {
     color: #FEE440;
     text-shadow: 2px 2px #222;
+}
+/* Index */
+.button-login {
+    margin-left: 3%;
+    margin-top: 10%;
 }
 /* Products */
 .overlay {
