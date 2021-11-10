@@ -94,7 +94,20 @@ html {
 #units {
     width: 8%;
 }
-
+.decrement-qty {
+    background-color: #191A19;
+    color:#fafafa;
+}
+.decrement-qty:hover{
+    background-color: #FEE440;
+}
+.increment-qty {
+    background-color: #FEE440;
+}
+.increment-qty:hover {
+    background-color: #191A19;
+    color: #FEE440;
+}
 /* Bag */
 
 .empty-bag {
